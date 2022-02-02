@@ -1158,7 +1158,7 @@ for (var i = 0; i < sentence.length; i++) {
         count++;
     }
 }
-// console.log(count)
+// console.log(letter)
 
 
 // 29.
