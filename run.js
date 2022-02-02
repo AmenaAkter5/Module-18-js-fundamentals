@@ -1076,27 +1076,27 @@ var familyMembers = family.length;
 var marks = 77;
 
 if (marks >= 50 && marks < 60) {
-    console.log('grade: D');
+    // console.log('grade: D');
 }
 
 else if (marks >= 60 && marks < 70) {
-    console.log('grade: C');
+    // console.log('grade: C');
 }
 
 else if (marks >= 70 && marks < 80) {
-    console.log('grade: B');
+    // console.log('grade: B');
 }
 
 else if (marks >= 80 && marks < 90) {
-    console.log('grade: A');
+    // console.log('grade: A');
 }
 
 else if (marks >= 90) {
-    console.log('grade: A+');
+    // console.log('grade: A+');
 }
 
 else {
-    console.log('grade: F');
+    // console.log('grade: F');
 }
 
 
@@ -1111,14 +1111,20 @@ else {
 var signal = 'green';
 
 if (signal == 'red') {
-    console.log('Do not cross the road');
+    // console.log('Do not cross the road');
 }
 else if (signal == 'yellow') {
-    console.log('You Need to wait until the signal is green');
+    // console.log('You Need to wait until the signal is green');
 }
 else {
-    console.log('You may cross the road safely');
+    // console.log('You may cross the road safely');
 }
+
+
+
+
+
+
 
 // ================================
 //         Extra [Comparison]
@@ -1131,6 +1137,9 @@ var hisLove = 100;
 
 // console.log(myLove <= hisLove);
 // console.log(myLove >= hisLove);
+
+
+
 
 
 
@@ -1152,5 +1161,12 @@ for (var i = 0; i < sentence.length; i++) {
 // console.log(count)
 
 
+// 29.
+
+let sum = 0;
+for (let i = 0; i <= 3; i++) {
+    sum = sum + i;
+}
+console.log(sum);
 
 
